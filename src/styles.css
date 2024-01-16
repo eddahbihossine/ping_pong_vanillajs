@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=League+Gothic&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #1A1A1A;
+}
+.main-title
+{
+    color: #67FFA4;
+    text-align: center;
+    font-family: League Gothic;
+    font-size: 130px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+h1
+{
+    color: #67FFA4;
+    text-align: center;
+    font-family: League Gothic;
+    font-size: 130px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 989798789;
+}
+.video-container
+{
+    margin-top: 0%;
+    margin-left: 0%;
+    video
+    {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.footer-container
+{
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    background-color: #1A1A1A;
+    color: #67FFA4;
+    text-align: center;
+    font-family: League Gothic;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.footer
+{
+    ul
+    {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        justify-items: space-around;
+        line-height: 1.5;
+        li
+        {
+            margin: 0 10px;
+            a
+            {
+                color: #67FFA4;
+                text-decoration: none;
+            }
+        }
+    }
+}
